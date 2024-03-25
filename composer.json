@@ -11,7 +11,8 @@
         "essa/api-tool-kit": "^2.1",
         "laravel/framework": "^11.0",
         "laravel/sanctum": "^4.0",
-        "laravel/tinker": "^2.9"
+        "laravel/tinker": "^2.9",
+        "wildside/userstamps": "^2.4"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
