@@ -25,7 +25,7 @@ class Agence extends Model
     protected $fillable = [
         'codage',
 		'libage',
-		'adrage',
+        'estsie'
     ];
 
     /**

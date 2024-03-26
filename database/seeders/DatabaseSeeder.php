@@ -4,6 +4,9 @@ namespace Database\Seeders;
 
 use App\Models\Agence;
 use App\Models\Apporteur;
+use App\Models\Branche;
+use App\Models\Categorie;
+use App\Models\Client;
 use App\Models\Compagnie;
 use App\Models\Societe;
 use App\Models\User;
@@ -22,6 +25,10 @@ class DatabaseSeeder extends Seeder
         Compagnie::factory(10)->create(); // Les compagnies sur le marché
         Agence::factory(2)->create(); // Le réseau d'agence du courtier
         Apporteur::factory(10)->create(); // Les apporteurs d'affaires
+        Client::factory(20)->create(); // Les Clients
+        Branche::factory(10)->create(); // Les differentes branches d'assurance
+        Categorie::factory(25)->create(); // Les categorie d'assurances
+        
 
        
        /*  User::factory()->create([

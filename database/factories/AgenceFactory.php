@@ -9,9 +9,8 @@ class AgenceFactory extends Factory
     public function definition(): array
     {
         return [
-            'codage' => $this->faker->randomDigit(),
+            'codage' => $this->faker->numberBetween(1,2),
 			'libage' => $this->faker->company(),
-			'adrage' => $this->faker->streetAddress(),
             'estsie' => $this->faker->boolean(),
         ];
     }
