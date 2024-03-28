@@ -16,9 +16,12 @@ Route::get('/user', function (Request $request) {
         'clients' => \App\Http\Controllers\API\ClientController::class,
         'branches' =>\App\Http\Controllers\API\BrancheController::class,
         'categories' => \App\Http\Controllers\API\CategorieController::class,
+        'reseaus'=> \App\Http\Controllers\API\ReseauController::class
     ]);
 
 //});
+
+
 
 
 

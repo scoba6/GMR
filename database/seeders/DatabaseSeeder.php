@@ -8,6 +8,7 @@ use App\Models\Branche;
 use App\Models\Categorie;
 use App\Models\Client;
 use App\Models\Compagnie;
+use App\Models\Reseau;
 use App\Models\Societe;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
@@ -15,7 +16,7 @@ use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
 {
-    /**
+    /** 
      * Seed the application's database.
      */
     public function run(): void
@@ -28,6 +29,7 @@ class DatabaseSeeder extends Seeder
         Client::factory(20)->create(); // Les Clients
         Branche::factory(10)->create(); // Les differentes branches d'assurance
         Categorie::factory(25)->create(); // Les categorie d'assurances
+        Reseau::factory(18)->create(); // Le réseau d'agence
         
 
        
